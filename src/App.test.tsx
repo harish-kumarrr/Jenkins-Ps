@@ -5,7 +5,7 @@ import App from './App'
 describe('App Component', () => {
   it('renders the "Get started" heading', () => {
     render(<App />)
-    expect(screen.getByText(/Get started/i)).toBeInTheDocument()
+    expect(screen.getByText(/Get started233r/i)).toBeInTheDocument()
   })
 
   it('renders the initial count as 0', () => {
